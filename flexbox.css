@@ -1,0 +1,56 @@
+*{
+margin: 0;
+}
+nav{
+height: 125px;
+width: 100%
+}
+.container{
+margin: 0;
+border: 10px solid lightblue;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+font-size: 30px;
+background-color: orange;
+color: white;
+font-weight: 300px;
+
+}
+div{
+padding-left: 175px;
+
+
+}
+
+div:hover{
+background-color: white;
+
+
+
+}
+
+.home{
+flex-basis: 250px;
+}
+.portfolio{
+flex-basis: 250px;
+
+}
+.skillsets{
+flex-basis: 250px;
+
+}
+.contact{
+flex-basis: 250px;
+}
+
+
+@media only screen and (max-width: 600px){
+.container{
+flex-direction: column;
+
+
+
+}
